@@ -15,7 +15,7 @@ jobs:
   checking:
     runs-on: ubuntu-latest
     env:
-      DOMAIN: https://sockboom.link
+      DOMAIN: https://sockboom.buzz
     if: github.event.repository.owner.id == github.event.sender.id || github.event_name == 'schedule'
     steps:
     - name: Setup timezone
